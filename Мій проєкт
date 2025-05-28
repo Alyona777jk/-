@@ -8,4 +8,5 @@ git checkout -b new-feature
 echo "Новий рядок" >> README.md
 git add .
 git commit -m "Додано нову функцію"
-git push origin new-feature
+git pull origin main
+
